@@ -1,0 +1,241 @@
+/*+++++++++++++++++++++++++++++ media (min-width: 481px) and (max-width: 973px) ++++++++++++++++++++++++++++++ */
+
+@media (max-width: 973px) {
+  body {
+    margin: 0 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  /* ------------------ nav style ------------------*/
+
+  nav ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 50px;
+  }
+
+  nav li {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  nav li a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .icons {
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  .home-icon a {
+    color: #d1884f;
+  }
+
+  img {
+    width: 12px;
+    height: 12px;
+  }
+  a:hover {
+    color: #d1884f;
+  }
+  /* ------------------ left section style ------------------*/
+  .left-section {
+    grid-column: 1/4;
+    margin-top: 30px;
+  }
+  .p1 {
+    font-size: 1.6rem;
+    color: #3bbadb;
+  }
+
+  h1 {
+    color: #008aaa;
+    font-size: 2.5rem;
+  }
+
+  .span1 {
+    color: #d1884f;
+  }
+
+  .p2 {
+    font-weight: 500;
+  }
+
+  .span2 {
+    color: #008aaa;
+  }
+  .button-1 {
+    font-size: 20px;
+    border-radius: 7px;
+    width: 136px;
+    height: 35px;
+    border: none;
+    color: aliceblue;
+    background-color: #008aaa;
+    box-shadow: 0 8px 8px #b2d2f5;
+  }
+  .button-2 {
+    margin: 40px 0 0 10px;
+    font-size: 15px;
+    border: solid;
+    border-radius: 7px;
+    border-color: #008aaa;
+    border-width: 1px;
+    width: 150px;
+    height: 35px;
+    color: #008aaa;
+    background-color: rgb(253, 253, 253);
+  }
+
+  .button-1:hover {
+    width: 144px;
+    height: 39px;
+    background-color: #026e86;
+  }
+  .button-2:hover {
+    width: 159px;
+    height: 39px;
+  }
+
+  /* ------------------ right section style ------------------*/
+
+  .right-section {
+    grid-column: 5/7;
+    margin-top: 60px;
+  }
+
+  .profile-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 30px 2px 30px 2px;
+    box-shadow: 20px 30px 20px #026e86;
+  }
+}
+/*+++++++++++++++++++++++++++++ media (min-width: 1201px) ++++++++++++++++++++++++++++++ */
+
+@media (min-width: 973px) and (max-width: 1600px) {
+  body {
+    margin: 0 140px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  /* ------------------ nav style ------------------*/
+
+  nav ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 50px;
+  }
+
+  nav li {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  nav li a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .icons {
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  .home-icon a {
+    color: #d1884f;
+  }
+
+  img {
+    width: 12px;
+    height: 12px;
+  }
+  a:hover {
+    color: #d1884f;
+  }
+
+  /* ------------------ left section style ------------------*/
+
+  .main-content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .left-section {
+    grid-column: 1/4;
+    margin-top: 30px;
+  }
+  .p1 {
+    font-size: 1.6rem;
+    color: #3bbadb;
+  }
+
+  h1 {
+    color: #008aaa;
+    font-size: 2.8rem;
+  }
+
+  .span1 {
+    color: #d1884f;
+  }
+
+  .p2 {
+    font-weight: 500;
+  }
+
+  .span2 {
+    color: #008aaa;
+  }
+  .button-1 {
+    font-size: 20px;
+    border-radius: 7px;
+    width: 142px;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+    background-color: #008aaa;
+    box-shadow: 0 8px 8px #b2d2f5;
+  }
+  .button-2 {
+    margin: 40px 0 0 20px;
+    font-size: 20px;
+    border: solid;
+    border-radius: 7px;
+    border-color: #008aaa;
+    border-width: 1px;
+    width: 180px;
+    height: 40px;
+    color: #008aaa;
+    background-color: rgb(253, 253, 253);
+  }
+
+  .button-1:hover {
+    width: 149px;
+    height: 44px;
+    background-color: #026e86;
+  }
+  .button-2:hover {
+    width: 189px;
+    height: 44px;
+  }
+  /* ------------------ right section style ------------------*/
+  .right-section {
+    grid-column: 5/7;
+    margin-top: 60px;
+  }
+
+  .profile-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 30px 2px 30px 2px;
+    box-shadow: 20px 30px 20px #026e86;
+  }
+}
